@@ -1,0 +1,1470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxnanbnsnfns00000000001" textdirection="ltr" device="false" fontscale="100" kbshortcuts="true" skip_nav_enabled="true" chromeless="false" outputtype="en" theme="classic">
+  <layouts>
+    <layout name="pxnanbnsnfns00000000001" font="Articulate" controllayout="pxnanbnsnfns00000000001" colorscheme="pxnanbnsnfns00000000001" string_table="pxnanbnsnfns00000000001" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="false">
+            <options>
+              <option name="title_text" value="Glossary of Research Terms and Acronyms" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="false">
+            <options>
+              <option name="sidebarpos" value="left" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="false" group="linkright" />
+              <listitem name="outline" value="false" group="sidebar" />
+              <listitem name="glossary" value="false" group="sidebar" />
+              <listitem name="transcript" value="false" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="none" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="false" />
+          <option name="seekbar" value="false">
+            <options>
+              <option name="readonly" value="false" />
+            </options>
+          </option>
+          <option name="replay" value="false" />
+          <option name="pauseplay" value="false" />
+          <option name="search" value="false" />
+          <option name="enableKeyboardShortcuts" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="pxnanbnsnfns00000000001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="pxnanbnsnfns00000000001">
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="128" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="128" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="pxnanbnsnfns00000000001">
+      <string id="prev">PREV</string>
+      <string id="question_list">Question List</string>
+      <string id="resources">Resources</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="bio">Bio</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="glossary">Glossary</string>
+      <string id="search_results">Search Results</string>
+      <string id="acc_resources">resources</string>
+      <string id="filter">Filter</string>
+      <string id="acc_submit">submit</string>
+      <string id="acc_volume">volume</string>
+      <string id="acc_next">next</string>
+      <string id="acc_pause">pause</string>
+      <string id="search">Search...</string>
+      <string id="outline">Menu</string>
+      <string id="acc_finish">finish</string>
+      <string id="terms">Terms</string>
+      <string id="acc_play">play</string>
+      <string id="acc_replay">replay</string>
+      <string id="check_include">Check to include</string>
+      <string id="close">Close</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="exit">Exit</string>
+      <string id="definition">Definition</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_definition">definition</string>
+      <string id="transcript">Notes</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_in">Search in:</string>
+      <string id="more_info">More info</string>
+      <string id="acc_previous">previous</string>
+      <string id="clear">Clear and return to Menu</string>
+      <string id="acc_active">active</string>
+      <string id="acc_closed_captions">Closed captions. Press the spacebar to toggle captions on and off.</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="next">NEXT</string>
+      <string id="closed_captions">Captions</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="acc_skipnavigation">Skip navigation. Press enter to return to the slide.</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="submit">SUBMIT</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Articulate">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5ZnCeG5mwGx" displaytext="Introduction" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6WziYWK5iRC" displaytext="AAFP" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5ypE3ZE9IfF" displaytext="AAHRPP" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6PUcKVlWdIn" displaytext="ACC" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6Bmto0GDQDD" displaytext="ACCP" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6oTwMJ7qwzw" displaytext="ACP" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6jsjbeIJIja" displaytext="ACRP" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.64eymVOxech" displaytext="Active Patients" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6jUvHrfllD5" displaytext="ADME" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6RrRY3xbhRa" displaytext="ADR" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5pl32IPDmAy" displaytext="Adverse Drug Reaction" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5WcQXtRz8TM" displaytext="Adverse Event" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6GnGoAZH4Za" displaytext="Advertisement" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5htSFDWUeUj" displaytext="Advocacy and Support Groups" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5iDINHZSX93" displaytext="AE" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5jotOA1oiw9" displaytext="AHA" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6jwCDkIq4O8" displaytext="AHC" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5k5WlVH5NQH" displaytext="AMA" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6TWYWIEBnTE" displaytext="AMC" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6rSxLIJqnOI" displaytext="Amendment" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5syWixh3Fb7" displaytext="ANDA" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6p6P8RWxNWS" displaytext="Anonymized Data / Sample" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6lnpqq5hmkp" displaytext="Applicable Regulatory Requirement" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5ciJEM1Jm5D" displaytext="Applicant" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5hrvHR8xsfC" displaytext="Approval" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.650GdicAd7y" displaytext="Approved Drugs" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6axaA2f95T3" displaytext="Arm" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5jjVWIX3Zz9" displaytext="ASA" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6M4hNkQyikp" displaytext="ASCPT" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6ZEKHcxvl8K" displaytext="Assent" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6L6osPKnU5A" displaytext="Audit" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6R3JOk1YRES" displaytext="Audit Certificate" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6AXY5NbzJ5H" displaytext="Audit Report" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6R1WIbJjgUc" displaytext="Audit Trail" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6DyPLxDz5VX" displaytext="Audit Visit" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6KGNAtSIdca" displaytext="Baseline" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6XsK4qV9zNW" displaytext="BBP" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5vDQoR1PprM" displaytext="Benefit" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6NnlV1I1OsE" displaytext="Bias" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.69OKU4cPkGR" displaytext="Biologic" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6M5rDy1TOCx" displaytext="Biometrics" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6X3M6EYkX7K" displaytext="Biotechnology" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6O28vx5RYxh" displaytext="BL" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.692IGUClQbG" displaytext="Blind" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5kyHQDAwPNN" displaytext="Blinding / Masking" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6Nm17zC0H1e" displaytext="BMBL" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6gtMjvP7azv" displaytext="BMI" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5z269yqtFbk" displaytext="BSC" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6i7Zuak45x4" displaytext="BSL" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5jL0xclTV9v" displaytext="Budget Worksheet" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6eIJXX0aekV" displaytext="CANDA" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6TJRZYofVw5" displaytext="CAPA" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6PeQ794dNUz" displaytext="Case Report Form" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5wNLc1tKgYW" displaytext="CBER" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6S1zQnfcLF8" displaytext="CCRF" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6jXH4ORVTEL" displaytext="CCTST" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.60CfHmVIk9K" displaytext="CDC" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6J2gMQ7WiYS" displaytext="CDER" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5uhm8vfUWns" displaytext="CDM" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.60hZO8K1vQ0" displaytext="CDRH" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5twI0Cw8TFk" displaytext="CDS" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6PyLgJxKAgi" displaytext="Central Lab" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5rCqMvPQJa7" displaytext="CFR" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5rjfP0rXlJp" displaytext="Children" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5fTM9YM7GqV" displaytext="CITI" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6CKdQz2b1kd" displaytext="Class" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.64D8Irfut1A" displaytext="Class I" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6Xb5sKozAfZ" displaytext="Class II" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5kgrxvUPcND" displaytext="Class III" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.66GRks3hvyo" displaytext="CLIA" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5hv7Wm8nCQs" displaytext="Clinical" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6aMEETBBkpY" displaytext="Clinical Equipoise" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.62WQT1u3MKY" displaytext="Clinical Study / Research Trial" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6iwO7R1FdBS" displaytext="Clinical Study Materials" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.68p74bznURs" displaytext="Clinical Trial" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5ajZosZ3yn8" displaytext="Clinical Trial Study Report" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6SVFJ0UA7TM" displaytext="Close-Out/Final Visit" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6E7q2uQHBP0" displaytext="Closed System" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5ceEJzCxRH1" displaytext="CMO" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6ICynRV2dam" displaytext="CMRSC" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6jd0edXsO4O" displaytext="Co-investigator" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6FvOWj9AHZx" displaytext="Coded Private Information" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6U5I5DDgjvc" displaytext="COG" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6Q9EdmWgEBq" displaytext="Cohort" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6AjvFuOH7r2" displaytext="Common Rule" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6PEUJ2TzWOB" displaytext="Community-Based Clinical Trial" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5iyGSRZkUvl" displaytext="Comparator (Product)" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5v6r1AN27OP" displaytext="Compassionate Use" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6PTZf4DM4Mg" displaytext="Compensation" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6Ap5LtFGAZk" displaytext="Completed Patient" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6Va8BoaQtJD" displaytext="Compliance" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6k13QJNO2wM" displaytext="Concomitant Medications" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6UO2I4sNGNZ" displaytext="Concurrent Illness" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6LQXGpheG9d" displaytext="Confidentiality" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6rIvz1kqwHo" displaytext="Conflict of Interest (COI)" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5j2veFQU3RU" displaytext="Contraindication" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5fVXPrA33is" displaytext="Control" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6G0QNkMbZQt" displaytext="Control Group" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5j9dFgCzwUP" displaytext="Corrective and Preventative Action (CAPA)" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5VDANwiHNkf" displaytext="COSTART" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5fZk9xOslkY" displaytext="CPI" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5tVopiNBphX" displaytext="CRA - Clinical Research Associate" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6ZNAj4vaTjq" displaytext="CRC - Clinical Research Coordinator" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6fbJL6Z1jPu" displaytext="CRF" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5lqu7rOE1cV" displaytext="CRMS" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5vscTVKfcNC" displaytext="CRO - Contract Research Organization" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5qTLWTaqocT" displaytext="CTC" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5ZVWV1BIwZX" displaytext="CTMS" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5aeQ0rBcSKX" displaytext="CTRC" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6ThMVI7kMaO" displaytext="CTSA" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.660NugcRXri" displaytext="Curriculum Vitae (CV)" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6qOPeBqkB5P" displaytext="Data" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5xgvPdIhhs9" displaytext="Data and Safety Monitor" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5jx7BjJAYVy" displaytext="Data Management" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.68n2t3OcE5U" displaytext="Data Queries" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5VA3RRTcy3z" displaytext="Database Lock" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6YJNbyaSgyg" displaytext="DCF" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.686gGOP6lBm" displaytext="De-identified Sample / Data" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5hRvIiPUFP5" displaytext="DEA" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.65rziUdKNb2" displaytext="Deception" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5scLsqdNj5N" displaytext="Declaration of Helsinki" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6QIPVlMzzmE" displaytext="Delegation of Authority (DOA)" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5aD1YyCjblZ" displaytext="Demographic Data" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.69tF6qaIRyU" displaytext="Deviation" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.67jcl9Ka5T9" displaytext="Device" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5YGuD6ZpRiJ" displaytext="DHHS" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5otv5PYN4u4" displaytext="DIA" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6BUqPGFLRUq" displaytext="Diagnostic Trials" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6kIHk128BrZ" displaytext="Direct Benefit" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6r3WdD42sIg" displaytext="Divisional Scientific Review" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6nU9RIbVPvn" displaytext="DM" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5Wb9nUKgSP6" displaytext="Documentation" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5w5lsmD4Pzy" displaytext="Dose-Ranging Study" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6bCTKPfW6Sv" displaytext="Double-Blind study" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5vQoBcDyW2a" displaytext="Drop-Out Patients" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5yHwPxfroxN" displaytext="Drug" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5x0SWeG0uSM" displaytext="Drug-Drug Interaction" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5yDKKH2a0Li" displaytext="Drug or Device Accountability Records (DAR)" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6WJSkx3Ktyo" displaytext="Drug Product" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5lEiUb9dud3" displaytext="Drug Substance" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5qbG8ipu1XD" displaytext="DSMB - Data and Safety Monitoring Board" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.63lmnj1D3GA" displaytext="DSMC - Data and Safety Monitoring Committee" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6FnHppoWdGI" displaytext="DSMP - Data and Safety Monitoring Plan" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6RcUt6JqykV" displaytext="DSR" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6gG5EdKSW4S" displaytext="EC" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6hz643Y63Ll" displaytext="eCRF" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6TrqJGhG2jl" displaytext="EDC" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.61cPAZfpEfg" displaytext="Effective Date / Issue Date" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5uL7I0FzitV" displaytext="Effective Dose" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6A26pplLPJA" displaytext="Efficacy" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5ml6Mlc1ATm" displaytext="EHR" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6orD7h9B2Ce" displaytext="EIR" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6g9uD7oMcEX" displaytext="EKG" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5fHMiu1kOZa" displaytext="Electronic Record" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6mhCZd2sBWq" displaytext="Electronic Signature" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5iRdcT2J96U" displaytext="Emergency Use" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6q6fWNmjMVs" displaytext="Empirical" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6oRYqdBYWZM" displaytext="EMR" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6OxmC0Koyn0" displaytext="Endpoint" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5o5uPP65RAt" displaytext="Engaged" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5Y2isVxGb9A" displaytext="Enrolling (enrollment)" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5YLbKwAdlnC" displaytext="Enrollment Log" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6RYWbSwwA0q" displaytext="Enrollment Period" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6EzW17ASKJs" displaytext="ePAS" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6rHbIBv8VeL" displaytext="Epidemiology" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6f2LPdXQduw" displaytext="Evaluable Patients" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6VWl5n3KwmW" displaytext="Exclusion Criteria" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6HxtjWBK7b7" displaytext="Exempt Review" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5pKscEChzZr" displaytext="Expanded Access" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6iLFsZmYpo3" displaytext="Expedited Review" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5WCEObZwNd1" displaytext="Experimental Drug" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.64SzV7tXBMP" displaytext="Experimental Group" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5t2y1Dd3lgF" displaytext="Extension Study" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5YrPUhW0AG5" displaytext="Family Member" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6Yo0XFp2tdn" displaytext="FDA - Food and Drug Administration" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5tJodaNNf8w" displaytext="FERPA" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6jL6OkAUjfC" displaytext="Food Drug and Cosmetic Act" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5bpaJt3oaJC" displaytext="Form 1572" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5quwYxv4tgN" displaytext="Form 3500" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.66xCgHoNgE7" displaytext="Form 482" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6Zvn4n2NYt5" displaytext="Form 483" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6MThfr8sqnT" displaytext="Formulation" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5hcmmzqgIw3" displaytext="Freedom of Information Act" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5ibOWqfLY06" displaytext="Full Board Review" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5ppHNKPvJIW" displaytext="FWA - Federalwide Assurance" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5gafQ5XVzjK" displaytext="GCP" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6JmhvDPE8kJ" displaytext="GCRC" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6pymCdg0AAh" displaytext="Generic Drug" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5mAqtragWhv" displaytext="GLP" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5XkziXkmYva" displaytext="GMP" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5cB832aIysf" displaytext="Grant" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5jb8Pw8FKnE" displaytext="Grantee" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.608pqgQShkO" displaytext="GTP" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5rRdY1V1OZQ" displaytext="Guardian" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6FKbi29xaVW" displaytext="GXP" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5lJlaxnqj46" displaytext="Handwritten Signature" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6GZSU58YvQj" displaytext="HDE " expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.66Dzt48soWm" displaytext="HHS" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.63ZfAwCf8Nu" displaytext="HIPAA" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.64P7rRoDvru" displaytext="HUD" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5uZER2lyQvR" displaytext="Human Subject" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6J1NkNtET29" displaytext="Hypothesis" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5kCsHGMfQwm" displaytext="IACUC" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6RTBj3T2txL" displaytext="IB" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6qFSW0qQOgb" displaytext="IBC" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6CeQlax17FP" displaytext="IC" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5rzT1fjde9b" displaytext="ICAAC" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6Xa5gN57M2g" displaytext="ICF" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5udabb8ZEIW" displaytext="ICH - International Conference on Harmonisation" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5XXOx7cy4Zz" displaytext="IDE" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6nhQKWMAmL9" displaytext="Identifiers" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6UxigKw8e4R" displaytext="IEC" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6hK0VBxhUWf" displaytext="IIT " expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.69aahvP41Cy" displaytext="In Vitro Testing" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6CPc0fPb0pK" displaytext="In Vivo Testing" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6pzDnuVCzPB" displaytext="Inclusion/Exclusion Criteria" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6eiqQgtdBT4" displaytext="IND" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5ou3f12seJw" displaytext="Indemnification" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5uL3HwN0Zn4" displaytext="Independent Ethics Committee (IEC)" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.61x82WTJKBX" displaytext="Indication" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5XMuZBJCuHi" displaytext="Informed Consent" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6X7ML5wBqy5" displaytext="Informed Consent Form" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5kgNhzMSM0r" displaytext="Initiation Visit" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5iSgWam4QK4" displaytext="Inspection" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6Wg5l2YQHO7" displaytext="Institution" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6hHDIbR62eS" displaytext="Institution (medical)" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5v3cG6zMVE6" displaytext="Institutional Review Board" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6kHa70NBFgt" displaytext="Intellectual Property" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5uePDA8xdRs" displaytext="Interaction" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6qUDCmalcJO" displaytext="Interim Clinical Trial / Study Report" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6SbAT2YV53K" displaytext="Intervention" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5WSbCbVpM8h" displaytext="Investigational New Drug (IND)" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5fZZWn25f0J" displaytext="Investigational New Drug Application" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6n8bOx5sACU" displaytext="Investigational Product" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.61fAgMualt4" displaytext="Investigator's Brochure" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5fJe8V08sEQ" displaytext="Investigator-Initiated" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5zKaO2n9Pgh" displaytext="Investigator (PI)" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.61c2WkoL3fR" displaytext="Investigator Meeting" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6IDpruiuTyB" displaytext="IOM" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6eiX7BnLrzE" displaytext="IRB" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6UHWFLk9Eky" displaytext="IRB Review" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5vA0vwiuvSX" displaytext="ISF" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6dwDoHdTLYo" displaytext="IVRS" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6ljE6wtT7wQ" displaytext="JCAHO" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.60c4KS0LeCX" displaytext="Key Personnel" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6B4VzALagGP" displaytext="LAR" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6Xc3WvCnQCn" displaytext="Legally Authorized Representative" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5stroxeXdkb" displaytext="Longitudinal Study" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6GaE7BRfCmK" displaytext="Medical Device" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6SZT3PuMz1r" displaytext="Medical Records" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6dEKoaMJnXx" displaytext="MedWatch" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6TgQP24n5ea" displaytext="MGMA" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6LE0Hn0Epqv" displaytext="Minimal Risk" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6Z4vQiKyD6f" displaytext="Monitor" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6RLSL49fhSk" displaytext="Monitoring" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6ZvqGoHIlhg" displaytext="Monitoring Report" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5ZSnrjJJzlT" displaytext="Monitoring Visit" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.61HuRPUGfPZ" displaytext="MOOP" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6Mf3nUOS4dT" displaytext="National Research Act" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6mpJp8mEtS9" displaytext="Natural History study" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5vNrNUZpLho" displaytext="NCI" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6kk5txXiZmA" displaytext="NCQA" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6mBrwEllFHP" displaytext="NDA - New Drug Application" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5VKe8Owz077" displaytext="New Drug Application (NDA)" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5wVfMUWYyM4" displaytext="NIH" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.61J4D85z3Wd" displaytext="Non-clinical Study" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6H08PffwL7i" displaytext="Non-Inferiority Studies" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6WpGuV0YfR3" displaytext="Noninvasive" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5lWprgoXX5S" displaytext="Notice of Award" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6InB2iWcbKa" displaytext="NSAID" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5YM9Hm6ZaL9" displaytext="NSF" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5rgWH8ih1Ww" displaytext="Nuremburg Code" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5sWgKBFVK5g" displaytext="OCTR" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5nhbYF36ZIu" displaytext="Off-Label Use" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6he01FPFn8M" displaytext="OHRP - Office of Human Research Protections" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6Wf084teDcn" displaytext="Open-Label Trial" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6KateVo88Ii" displaytext="Open System" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5euynda2F66" displaytext="Opinion" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5gGXUOJsw3L" displaytext="ORCRA" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5kYszStZ81c" displaytext="Orphan Drugs" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6P8jtJW7Y6N" displaytext="OSHA" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6UICtkf7YAg" displaytext="Other Covered Personnel" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6nDbVA8GEnF" displaytext="Over-the-Counter (OTC)" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5wvvIQJNLFQ" displaytext="Parent" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6cayB8ZN0Ft" displaytext="Parental Permission" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6q7PZphPIOa" displaytext="Participant / Subject" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6nOXLGEIe33" displaytext="Patient" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6lDEjTO0fSc" displaytext="PDR" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6SzBkPxZxlM" displaytext="Peer Review" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6l94CvdIa7S" displaytext="Pharmacodynamics" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5itlefAGV0v" displaytext="Pharmacokinetics" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5jSnDDE48ET" displaytext="Phase I Trials" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5zj33V920pT" displaytext="Phase II Trials" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5dGDWCcsHB0" displaytext="Phase III Trials" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5n65P2G89Zo" displaytext="Phase IV Trials" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5ft22byjkst" displaytext="Phases of Research" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5WMNZaP198f" displaytext="PHI" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.68WY5jh1xLs" displaytext="PI (Principal Investigator)" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5VqrjWSiWxP" displaytext="Pivotal Study" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6YVs3csKTZQ" displaytext="Placebo" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5jHqMu3gZXJ" displaytext="Placebo Effect" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5sS4F3NUoYS" displaytext="PLHCP" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6FiBPxovscr" displaytext="PMA" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6Om8aj7G6B1" displaytext="PME" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5nZUvRPTp7q" displaytext="PMS" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.65Co9QVNWp6" displaytext="Policy" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6XZiU9RFZV9" displaytext="PPE" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6qhl9W13vQq" displaytext="Pre-Clinical" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6GR90TH6D3o" displaytext="PreInvestigational Site Visit" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5zBUbpvQcOF" displaytext="Prepatory to Research" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5rtqP8Eha13" displaytext="Prevention Trials" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6DN2Y6Do6E6" displaytext="PRIM&amp;R" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6TaKE4LK5jY" displaytext="Privacy" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6iXNbktNVAG" displaytext="Private Information" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6hLO2K6oyHQ" displaytext="PRN" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5eZZ3RF7by1" displaytext="Protocol" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5kz3n09gD10" displaytext="Protocol Amendment" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6EiyzVhmfs6" displaytext="Protocol Deviation" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5oMYsVqkZbk" displaytext="Protocol Violation" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6FKLbC6l1Wn" displaytext="QA - Quality Assurance" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6jo2nNAB6vP" displaytext="QI - Quality Improvement" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6Scg67eG1YX" displaytext="Qualified Patients" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5ZFw1X4iCOW" displaytext="Quality Control" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6GVIZi4GouN" displaytext="Quality of Life Trials" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5tZ3pwUfqF2" displaytext="Randomization" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6OWANjYvxQr" displaytext="Randomized Trial" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6iowixD67P9" displaytext="RAPS" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.65cfyTb4nJc" displaytext="Recruitment" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5ZvGpSAUChY" displaytext="Recruitment Levels" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6r8VEl6BKb6" displaytext="Recruitment Materials" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6cZxgZHrA6b" displaytext="Recruitment Period" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5htbRi7WMqG" displaytext="Recruitment Status" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6SX7VuSqNgO" displaytext="Regulatory Authorities" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5hd5HD3Ejki" displaytext="Regulatory File Master / Regulatory Master Binder" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6Nwe0D2V6Mn" displaytext="Regulatory Requirements" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6oQELXjTu3C" displaytext="REMS" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6NfMxTYR5FM" displaytext="Research" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5xYfWB2EY61" displaytext="Research / Study Binder" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6F7lEtdDEJC" displaytext="Research Agreement" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6LA6PLoqwE9" displaytext="Research Community" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.60dfaMRKKLA" displaytext="Research Team" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5Uotq4SKukq" displaytext="Risk" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6DyuOZpfTZJ" displaytext="Risk-Benefit Ratio" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6rSsfbBR8KA" displaytext="SAE" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6MkgaYV3qp8" displaytext="Safety" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.63CidRZzhaT" displaytext="Safety Reports" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6ZAvxpgQj3o" displaytext="Screen Failure" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6Z69NqMhVwB" displaytext="Screen Visits" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6UYEyDGHL1r" displaytext="Screening Log" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6G33ZNSFNiV" displaytext="Screening Trials" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6RHoJCJeJKE" displaytext="SCT" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5ll0QLiHnzR" displaytext="Serious Adverse Event" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6cXyu3x9nc7" displaytext="Side Effects" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5wlrvrAygbu" displaytext="Significant Risk Device" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.67MDQp5wRKP" displaytext="Single-Blind Study" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6fox3hiz6Yu" displaytext="Single Project Assurance" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6St1q5PUygi" displaytext="Site" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.66PTBtAwBxY" displaytext="Site PI" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5rRXkDWG9q5" displaytext="SMO" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6NNaqryOBwc" displaytext="SOCRA" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6LfumxvCbOD" displaytext="SOP" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5XsC70Jkhxl" displaytext="Source Data" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6gkobXm8ND6" displaytext="Source Documents" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.69iUKFdDxH9" displaytext="SPO" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6jwPRl2S0sn" displaytext="Sponsor" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6TrIDsz02BP" displaytext="Sponsor-Initiated" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6N9tk8UNA1w" displaytext="Sponsor-Investigator" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6QgqDC6XaMA" displaytext="Standard of Care / Standard Treatment" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5pdZP4aC4Hj" displaytext="Standard Treatment" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.60ziuRHm2wo" displaytext="Statement of the Investigator (FDA Form 1572)" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5tyjsFcrXD2" displaytext="Statistical Significance" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.64IYKYdiPxR" displaytext="Sub-Investigator" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6P7vvhpwyvv" displaytext="Subject / Trial Subject / Participant" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6ba0VdtqX1I" displaytext="Superiority Studies" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5k4SUrqMJJw" displaytext="SUSAR" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6hRIUBHjfcd" displaytext="Telephone Report" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5n20R9mPTsG" displaytext="Termination" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.67f104BUNRc" displaytext="Test Article" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5zQW5XDGwp9" displaytext="Therapeutic Misconception" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.63lO2PROJlj" displaytext="TMF" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5h8blyH0RdU" displaytext="Toxicity" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6BkbVN2pFfB" displaytext="Translational Research" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6Obl3NBOnJI" displaytext="Treatment IND" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5yd90q5CO6q" displaytext="Treatment Period" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5oJ48UmWJlq" displaytext="Treatment Trials" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6T5KVkzP7EF" displaytext="Trial Site" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6bhp4ELPzqK" displaytext="UADR" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.644TJNh1uRY" displaytext="Unanticipated Adverse Device Effect" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5zewsejloan" displaytext="Unanticipated Event / Problem" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6lT6HXkwM09" displaytext="Unexpected Adverse Drug Reaction" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5k5Dy1JmFVk" displaytext="UPIRTSO - Unanticipated Problems Involving Risk to Subjects or Others" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.60R0lKubgCE" displaytext="Violation" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5kTtkUCMzNc" displaytext="Vulnerable Population" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5rpo8suCYzr" displaytext="Ward" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.5qmpKOvtxNK" displaytext="Well-being (of the trial subject)" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6cLOJerGH2Y" displaytext="WHO" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.65qbv2o9Cn4" displaytext="WIRB" expand="false" type="action" />
+        <slidelink slideid="6YEq31actt9.6hHrsgUHcQD.6aw0Uatzkd4" displaytext="Withdrawal Application" expand="false" type="action" />
+      </links>
+    </outline>
+  </nav_data>
+  <resource_data description="" />
+  <transcript_data />
+  <glossary_data />
+</bwFrame>
